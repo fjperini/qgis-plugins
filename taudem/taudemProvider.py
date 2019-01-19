@@ -90,7 +90,7 @@ class TauDemProvider(QgsProcessingProvider):
         ProcessingConfig.addSetting(Setting(self.name(),
                                             taudemUtils.TAUDEM_ACTIVE,
                                             self.tr("Activate"),
-                                            False))
+                                            True))
         ProcessingConfig.addSetting(Setting(self.name(),
                                             taudemUtils.TAUDEM_DIRECTORY,
                                             self.tr("TauDEM directory"),
