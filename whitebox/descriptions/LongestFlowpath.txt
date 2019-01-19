@@ -1,0 +1,8 @@
+LongestFlowpath
+LongestFlowpath
+Hydrological Analysis
+hydrologicalanalysis
+Delineates the longest flowpaths for a group of subbasins or watersheds
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterRasterLayer|basins|Basins File|None|False
+QgsProcessingParameterVectorDestination|output|Output File|QgsProcessing.TypeVectorLine|None|False

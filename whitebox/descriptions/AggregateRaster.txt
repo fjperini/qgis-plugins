@@ -1,0 +1,9 @@
+AggregateRaster
+AggregateRaster
+GIS Analysis
+gisanalysis
+Aggregates a raster to a lower resolution
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|agg_factor|Aggregation Factor (pixels)|QgsProcessingParameterNumber.Integer|2|False|None|None
+QgsProcessingParameterEnum|type|Aggregation Type|mean;sum;maximum;minimum;range|False|0|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

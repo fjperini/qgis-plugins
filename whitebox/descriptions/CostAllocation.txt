@@ -1,0 +1,8 @@
+CostAllocation
+CostAllocation
+GIS Analysis
+gisanalysis
+Identifies the source cell to which each grid cell is connected by a least-cost pathway in a cost-distance analysis
+QgsProcessingParameterRasterLayer|source|Input Source File|None|False
+QgsProcessingParameterRasterLayer|backlink|Input Backlink File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

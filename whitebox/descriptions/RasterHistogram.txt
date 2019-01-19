@@ -1,0 +1,7 @@
+RasterHistogram
+RasterHistogram
+Math and Stats Tools
+mathandstatstools
+Creates a histogram from raster values
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False

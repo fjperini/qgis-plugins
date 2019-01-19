@@ -1,0 +1,8 @@
+PickFromList
+PickFromList
+GIS Analysis
+gisanalysis
+Outputs the value from a raster stack specified by a position raster
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterRasterLayer|pos_input|Input Position File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,8 @@
+PlanCurvature
+PlanCurvature
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates a plan (contour) curvature raster from an input DEM
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|zfactor|Z Conversion Factor|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

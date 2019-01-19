@@ -1,0 +1,13 @@
+LidarGroundPointFilter
+LidarGroundPointFilter
+LiDAR Tools
+lidartools
+Identifies ground points within LiDAR dataset using a slope-based method
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|las|None|False
+QgsProcessingParameterNumber|radius|Search Radius|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterNumber|min_neighbours|Minimum Number of Neighbours|QgsProcessingParameterNumber.Integer|0|False|None|None
+QgsProcessingParameterNumber|slope_threshold|Inter-point Slope Threshold|QgsProcessingParameterNumber.Double|45.0|False|None|None
+QgsProcessingParameterNumber|height_threshold|Off-terrain Point Height Threshold|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterBoolean|classify|Classify Points|True|False
+QgsProcessingParameterBoolean|slope_norm|Perform initial ground slope normalization?|True|False
+QgsProcessingParameterFileDestination|output|Output File|LIDAR files (*.las *.LAS)|None|False

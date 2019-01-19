@@ -1,0 +1,6 @@
+CompactnessRatio
+CompactnessRatio
+GIS Analysis
+gisanalysis
+Calculates the compactness ratio (A/P), a measure of shape complexity, for vector polygons
+QgsProcessingParameterFeatureSource|input|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False

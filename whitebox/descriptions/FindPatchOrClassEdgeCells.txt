@@ -1,0 +1,7 @@
+FindPatchOrClassEdgeCells
+FindPatchOrClassEdgeCells
+GIS Analysis
+gisanalysis
+Finds all cells located on the edge of patch or class features
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

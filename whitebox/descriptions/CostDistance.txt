@@ -1,0 +1,9 @@
+CostDistance
+CostDistance
+GIS Analysis
+gisanalysis
+Performs cost-distance accumulation on a cost surface and a group of source cells
+QgsProcessingParameterRasterLayer|source|Input Source File|None|False
+QgsProcessingParameterRasterLayer|cost|Input Cost (Friction) File|None|False
+QgsProcessingParameterRasterDestination|out_accum|Output Cost Accumulation File|None|False
+QgsProcessingParameterRasterDestination|out_backlink|Output Backlink File|None|False

@@ -1,0 +1,6 @@
+LinearityIndex
+LinearityIndex
+GIS Analysis
+gisanalysis
+Calculates the linearity index for vector polygons
+QgsProcessingParameterFeatureSource|input|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False

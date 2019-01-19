@@ -1,0 +1,8 @@
+WeightedSum
+WeightedSum
+GIS Analysis
+gisanalysis
+Performs a weighted-sum overlay on multiple input raster images
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterString|weights|Weight Values (e.g. 1.7;3.5;1.2)|None|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

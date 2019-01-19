@@ -1,0 +1,9 @@
+PrincipalComponentAnalysis
+PrincipalComponentAnalysis
+Math and Stats Tools
+mathandstatstools
+Performs a principal component analysis (PCA) on a multi-spectral dataset
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterNumber|num_comp|Num. of Component Images (blank for all)|QgsProcessingParameterNumber.Integer|None|False|None|None
+QgsProcessingParameterBoolean|standardized|Perform Standaradized PCA?|False|False
+QgsProcessingParameterFileDestination|out_html|Output HTML Report File|HTML files (*.html *.HTML)|None|False

@@ -1,0 +1,7 @@
+AbsoluteValue
+AbsoluteValue
+Math and Stats Tools
+mathandstatstools
+Calculates the absolute value of every cell in a raster
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

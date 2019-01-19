@@ -1,0 +1,10 @@
+LidarSegmentation
+LidarSegmentation
+LiDAR Tools
+lidartools
+Segments a LiDAR point cloud based on normal vectors
+QgsProcessingParameterFile|input|Input LiDAR File|QgsProcessingParameterFile.File|las|None|False
+QgsProcessingParameterNumber|radius|Search Radius|QgsProcessingParameterNumber.Double|5.0|False|None|None
+QgsProcessingParameterNumber|norm_diff|Normal Difference Threshold|QgsProcessingParameterNumber.Double|10.0|False|None|None
+QgsProcessingParameterNumber|maxzdiff|Maximum Elevation Difference Between Points|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterFileDestination|output|Output File|LIDAR files (*.las *.LAS)|None|False

@@ -1,0 +1,9 @@
+ImpoundmentIndex
+ImpoundmentIndex
+Hydrological Analysis
+hydrologicalanalysis
+Calculates the impoundment size resulting from damming a DEM
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterEnum|out_type|Output Type|depth;volume;area|False|0|False
+QgsProcessingParameterNumber|damlength|Max dam length (grid cells)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

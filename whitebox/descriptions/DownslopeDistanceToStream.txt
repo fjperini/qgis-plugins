@@ -1,0 +1,8 @@
+DownslopeDistanceToStream
+DownslopeDistanceToStream
+Hydrological Analysis
+hydrologicalanalysis
+Measures distance to the nearest downslope stream cell
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterRasterLayer|streams|Input Streams File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

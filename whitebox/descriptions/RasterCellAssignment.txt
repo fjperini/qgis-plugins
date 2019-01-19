@@ -1,0 +1,8 @@
+RasterCellAssignment
+RasterCellAssignment
+GIS Analysis
+gisanalysis
+Assign row or column number to cells
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterEnum|assign|Which spatial variable should be assigned?|column;row;x;y|False|0|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

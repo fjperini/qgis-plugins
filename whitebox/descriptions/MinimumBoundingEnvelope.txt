@@ -1,0 +1,8 @@
+MinimumBoundingEnvelope
+MinimumBoundingEnvelope
+GIS Analysis
+gisanalysis
+Creates a vector axis-aligned minimum bounding rectangle (envelope) around vector features
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterBoolean|features|Find bounding envelop around each individual feature.|True|False
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

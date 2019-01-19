@@ -1,0 +1,11 @@
+DInfFlowAccumulation
+DInf Flow Accumulation
+Hydrological Analysis
+hydrologicalanalysis
+Calculates a D-infinity flow accumulation raster from an input DEM
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterEnum|out_type|Output Type|Cells;Specific Contributing Area;Catchment Area|False|1|False
+QgsProcessingParameterNumber|threshold|Convergence Threshold (grid cells; blank for none)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterBoolean|log|Log-transform the output?|False|False
+QgsProcessingParameterBoolean|clip|Clip the upper tail by 1%?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,13 @@
+DrainagePreservingSmoothing
+DrainagePreservingSmoothing
+Geomorphometric Analysis
+geomorphometricanalysis
+Reduces short-scale variation in an input DEM while preserving breaks-in-slope and small drainage features using a modified Sun et al. (2007) algorithm
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|filter|Filter Size|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterNumber|norm_diff|Normal Difference Threshold|QgsProcessingParameterNumber.Double|8.0|False|None|None
+QgsProcessingParameterNumber|num_iter|Iterations|QgsProcessingParameterNumber.Integer|5|False|None|None
+QgsProcessingParameterNumber|reduction|Max. Smoothing Reduction Factor (%)|QgsProcessingParameterNumber.Double|80.0|False|None|None
+QgsProcessingParameterNumber|dfm|Diff. From Median Threshold|QgsProcessingParameterNumber.Double|0.15|False|None|None
+QgsProcessingParameterNumber|zfactor|Z Conversion Factor|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,7 @@
+PolygonsToLines
+PolygonsToLines
+Data Tools
+datatools
+Converts vector polygons to polylines
+QgsProcessingParameterFeatureSource|input|Input Polygon File|QgsProcessing.TypeVectorPolygon|None|False
+QgsProcessingParameterVectorDestination|output|Output Line File|QgsProcessing.TypeVectorLine|None|False

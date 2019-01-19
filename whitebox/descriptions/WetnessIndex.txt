@@ -1,0 +1,8 @@
+WetnessIndex
+WetnessIndex
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates the topographic wetness index, Ln(A / tan(slope))
+QgsProcessingParameterRasterLayer|sca|Input Specific Contributing Area (SCA) File|None|False
+QgsProcessingParameterRasterLayer|slope|Input Slope File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

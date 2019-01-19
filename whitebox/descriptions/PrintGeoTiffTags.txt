@@ -1,0 +1,6 @@
+PrintGeoTiffTags
+PrintGeoTiffTags
+Data Tools
+datatools
+Prints the tags within a GeoTIFF
+QgsProcessingParameterRasterLayer|input|Input GeoTIFF Raster File|None|False

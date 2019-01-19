@@ -1,0 +1,11 @@
+LidarTile
+LidarTile
+LiDAR Tools
+lidartools
+Tiles a LiDAR LAS file into multiple LAS files
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|las|None|False
+QgsProcessingParameterNumber|width_x|Tile Width in X Dimension|QgsProcessingParameterNumber.Double|1000.0|False|None|None
+QgsProcessingParameterNumber|width_y|Tile Width in Y Dimension|QgsProcessingParameterNumber.Double|1000.0|False|None|None
+QgsProcessingParameterNumber|origin_x|Origin Point X-Coordinate|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|origin_y|Origin Point Y-Coordinate|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|min_points|Minimum Number of Tile Points|QgsProcessingParameterNumber.Integer|2|False|None|None

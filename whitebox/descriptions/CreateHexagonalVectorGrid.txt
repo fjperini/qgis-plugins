@@ -1,0 +1,9 @@
+CreateHexagonalVectorGrid
+CreateHexagonalVectorGrid
+GIS Analysis
+gisanalysis
+Creates a hexagonal vector grid
+QgsProcessingParameterFile|input|Input Base File|QgsProcessingParameterFile.File|None|None|False
+QgsProcessingParameterNumber|width|Hexagon Width|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterEnum|orientation|Grid Orientation|horizontal;vertical|False|0|False
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

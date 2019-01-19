@@ -1,0 +1,9 @@
+NewRasterFromBase
+NewRasterFromBase
+Data Tools
+datatools
+Creates a new raster using a base image
+QgsProcessingParameterRasterLayer|base|Input Base File|None|False
+QgsProcessingParameterString|value|Constant Value|nodata|False|False
+QgsProcessingParameterEnum|data_type|Data Type|double;float;integer|False|1|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

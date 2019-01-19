@@ -1,0 +1,8 @@
+RadiusOfGyration
+RadiusOfGyration
+GIS Analysis
+gisanalysis
+Calculates the distance of cells from their polygon's centroid
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterBoolean|text_output|Output text?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

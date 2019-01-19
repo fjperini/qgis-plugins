@@ -1,0 +1,8 @@
+FindRidges
+FindRidges
+Geomorphometric Analysis
+geomorphometricanalysis
+Identifies potential ridge and peak grid cells
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterBoolean|line_thin|Perform line-thinning?|True|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

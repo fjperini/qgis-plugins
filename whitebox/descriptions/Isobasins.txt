@@ -1,0 +1,8 @@
+Isobasins
+Isobasins
+Hydrological Analysis
+hydrologicalanalysis
+Divides a landscape into nearly equal sized drainage basins (i.e. watersheds)
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|size|Target Basin Size (grid cells)|QgsProcessingParameterNumber.Integer|None|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

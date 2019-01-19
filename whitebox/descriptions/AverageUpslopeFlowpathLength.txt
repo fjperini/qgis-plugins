@@ -1,0 +1,7 @@
+AverageUpslopeFlowpathLength
+AverageUpslopeFlowpathLength
+Hydrological Analysis
+hydrologicalanalysis
+Measures the average length of all upslope flowpaths draining each grid cell
+QgsProcessingParameterRasterLayer|dem|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

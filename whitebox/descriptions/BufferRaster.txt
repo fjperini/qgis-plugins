@@ -1,0 +1,9 @@
+BufferRaster
+BufferRaster
+GIS Analysis
+gisanalysis
+Maps a distance-based buffer around each non-background (non-zero/non-nodata) grid cell in an input image
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|size|Buffer Size|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterBoolean|gridcells|Buffer size measured in grid cells?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,11 @@
+CreateRectangularVectorGrid
+CreateRectangularVectorGrid
+GIS Analysis
+gisanalysis
+Creates a rectangular vector grid
+QgsProcessingParameterFile|input|Input Base File|QgsProcessingParameterFile.File|None|None|False
+QgsProcessingParameterNumber|width|Grid Cell Width|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|height|Grid Cell Height|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|xorig|Grid origin x-coordinate|QgsProcessingParameterNumber.Double|0|False|None|None
+QgsProcessingParameterNumber|yorig|Grid origin y-coordinate|QgsProcessingParameterNumber.Double|0|False|None|None
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

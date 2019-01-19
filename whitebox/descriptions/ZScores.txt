@@ -1,0 +1,7 @@
+ZScores
+ZScores
+Math and Stats Tools
+mathandstatstools
+Standardizes the values in an input raster by converting to z-scores
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

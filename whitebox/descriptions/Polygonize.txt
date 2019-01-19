@@ -1,0 +1,7 @@
+Polygonize
+Polygonize
+GIS Analysis
+gisanalysis
+Creates a polygon layer from two or more intersecting line features contained in one or more input vector line files
+QgsProcessingParameterMultipleLayers|inputs|Input Vector Lines File|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterVectorDestination|output|Output Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False

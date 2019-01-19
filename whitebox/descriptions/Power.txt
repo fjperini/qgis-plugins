@@ -1,0 +1,8 @@
+Power
+Power
+Math and Stats Tools
+mathandstatstools
+Raises the values in grid cells of one rasters, or a constant value, by values in another raster or constant value
+QgsProcessingParameterRasterLayer|input1|Input File Or Constant Value|None|False
+QgsProcessingParameterRasterLayer|input2|Input File Or Constant Value|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

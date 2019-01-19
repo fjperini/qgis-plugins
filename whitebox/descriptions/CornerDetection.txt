@@ -1,0 +1,7 @@
+CornerDetection
+CornerDetection
+Image Processing Tools
+imageprocessingtools
+Identifies corner patterns in boolean images using hit-and-miss pattern mattching
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

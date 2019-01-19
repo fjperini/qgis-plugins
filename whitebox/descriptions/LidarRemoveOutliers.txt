@@ -1,0 +1,9 @@
+LidarRemoveOutliers
+LidarRemoveOutliers
+LiDAR Tools
+lidartools
+Removes outliers (high and low points) in a LiDAR point cloud
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|las|None|False
+QgsProcessingParameterNumber|radius|Search Radius|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterNumber|elev_diff|Max. Elevation Difference|QgsProcessingParameterNumber.Double|50.0|False|None|None
+QgsProcessingParameterFileDestination|output|Output File|LIDAR files (*.las *.LAS)|None|False

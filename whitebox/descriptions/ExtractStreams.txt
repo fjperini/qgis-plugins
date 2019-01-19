@@ -1,0 +1,9 @@
+ExtractStreams
+ExtractStreams
+Stream Network Analysis
+streamnetworkanalysis
+Extracts stream grid cells from a flow accumulation raster
+QgsProcessingParameterRasterLayer|flow_accum|Input D8 Flow Accumulation File|None|False
+QgsProcessingParameterNumber|threshold|Channelization Threshold|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterBoolean|zero_background|Should a background value of zero be used?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

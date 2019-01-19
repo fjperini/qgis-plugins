@@ -1,0 +1,7 @@
+PolygonShortAxis
+PolygonShortAxis
+GIS Analysis
+gisanalysis
+This tool can be used to map the short axis of polygon features
+QgsProcessingParameterFeatureSource|input|Input Polygon File|QgsProcessing.TypeVectorPolygon|None|False
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

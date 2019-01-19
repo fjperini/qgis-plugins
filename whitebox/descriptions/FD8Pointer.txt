@@ -1,0 +1,7 @@
+FD8Pointer
+FD8Pointer
+Hydrological Analysis
+hydrologicalanalysis
+Calculates an FD8 flow pointer raster from an input DEM
+QgsProcessingParameterRasterLayer|dem|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

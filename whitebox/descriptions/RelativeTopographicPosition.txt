@@ -1,0 +1,9 @@
+RelativeTopographicPosition
+RelativeTopographicPosition
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates the relative topographic position index from a DEM
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|filterx|Filter X-Dimension|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterNumber|filtery|Filter Y-Dimension|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

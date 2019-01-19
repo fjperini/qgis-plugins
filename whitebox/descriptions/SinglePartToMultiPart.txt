@@ -1,0 +1,8 @@
+SinglePartToMultiPart
+SinglePartToMultiPart
+Data Tools
+datatools
+Converts a vector file containing multi-part features into a vector containing only single-part features
+QgsProcessingParameterFeatureSource|input|Input Line or Polygon File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|field|Grouping ID Field Name|None|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Number
+QgsProcessingParameterVectorDestination|output|Output Line or Polygon File|QgsProcessing.TypeVectorAnyGeometry|None|False

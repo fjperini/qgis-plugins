@@ -1,0 +1,8 @@
+LidarTophatTransform
+LidarTophatTransform
+LiDAR Tools
+lidartools
+Performs a white top-hat transform on a Lidar dataset; as an estimate of height above ground, this is useful for modelling the vegetation canopy
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|las|None|False
+QgsProcessingParameterNumber|radius|Search Radius|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterFileDestination|output|Output File|LIDAR files (*.las *.LAS)|None|False

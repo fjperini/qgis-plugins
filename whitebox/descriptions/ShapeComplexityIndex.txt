@@ -1,0 +1,6 @@
+ShapeComplexityIndex
+ShapeComplexityIndex
+GIS Analysis
+gisanalysis
+Calculates overall polygon shape complexity or irregularity
+QgsProcessingParameterFeatureSource|input|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False

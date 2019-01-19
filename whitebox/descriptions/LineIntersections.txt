@@ -1,0 +1,8 @@
+LineIntersections
+LineIntersections
+GIS Analysis
+gisanalysis
+Identifies points where the features of two vector line layers intersect
+QgsProcessingParameterFeatureSource|input1|Input Vector Lines File|QgsProcessing.TypeVectorPolygon;QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterFeatureSource|input2|Input Vector Lines File|QgsProcessing.TypeVectorPolygon;QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterVectorDestination|output|Output Vector Point File|QgsProcessing.TypeVectorPoint|None|False

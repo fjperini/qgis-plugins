@@ -1,0 +1,8 @@
+Basins
+Basins
+Hydrological Analysis
+hydrologicalanalysis
+Identifies drainage basins that drain to the DEM edge
+QgsProcessingParameterRasterLayer|d8_pntr|Input D8 Pointer File|None|False
+QgsProcessingParameterBoolean|esri_pntr|Does the pointer file use the ESRI pointer scheme?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,9 @@
+BreachDepressions
+BreachDepressions
+Hydrological Analysis
+hydrologicalanalysis
+Breaches all of the depressions in a DEM using Lindsay's (2016) algorithm. This should be preferred over depression filling in most cases
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|max_depth|Maximum Breach Depth (z units)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|max_length|Maximum Breach Channel Length (grid cells)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

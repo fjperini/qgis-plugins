@@ -1,0 +1,9 @@
+ClipRasterToPolygon
+ClipRasterToPolygon
+GIS Analysis
+gisanalysis
+Clips a raster to a vector polygon
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterFeatureSource|polygons|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False
+QgsProcessingParameterBoolean|maintain_dimensions|Maintain input raster dimensions?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

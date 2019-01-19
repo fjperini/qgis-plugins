@@ -1,0 +1,8 @@
+SetNodataValue
+SetNodataValue
+Data Tools
+datatools
+Assign a specified value in an input image to the NoData value
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|back_value|Background Value|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

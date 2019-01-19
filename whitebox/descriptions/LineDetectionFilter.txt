@@ -1,0 +1,10 @@
+LineDetectionFilter
+LineDetectionFilter
+Image Processing Tools
+imageprocessingtools
+Performs a line-detection filter on an image
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterEnum|variant|Variant|vertical;horizontal;45;135|False|0|False
+QgsProcessingParameterBoolean|absvals|Output absolute values?|False|False
+QgsProcessingParameterNumber|clip|Distribution Tail Clip Amount (%)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

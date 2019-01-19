@@ -1,0 +1,7 @@
+AverageOverlay
+AverageOverlay
+GIS Analysis
+gisanalysis
+Calculates the average for each grid cell from a group of raster images
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

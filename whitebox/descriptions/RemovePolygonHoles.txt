@@ -1,0 +1,7 @@
+RemovePolygonHoles
+RemovePolygonHoles
+Data Tools
+datatools
+Removes holes within the features of a vector polygon file
+QgsProcessingParameterFeatureSource|input|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

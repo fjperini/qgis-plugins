@@ -1,0 +1,10 @@
+ExtractValleys
+ExtractValleys
+Stream Network Analysis
+streamnetworkanalysis
+Identifies potential valley bottom grid cells based on local topolography alone
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterEnum|variant|Variant|Lower Quartile;Johnston and Rosenfeld;Peucker and Douglas|False|0|False
+QgsProcessingParameterBoolean|line_thin|Perform line-thinning?|True|False
+QgsProcessingParameterNumber|filter|Filter Size (Only For Lower Quartile)|QgsProcessingParameterNumber.Integer|5|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

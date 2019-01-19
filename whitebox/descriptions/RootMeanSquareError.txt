@@ -1,0 +1,7 @@
+RootMeanSquareError
+RootMeanSquareError
+Math and Stats Tools
+mathandstatstools
+Calculates the RMSE and other accuracy statistics
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterLayer|base|Input Base File|None|False

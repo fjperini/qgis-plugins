@@ -1,0 +1,10 @@
+Hillshade
+Hillshade
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates a hillshade raster from an input DEM
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|azimuth|Azimuth (degrees)|QgsProcessingParameterNumber.Double|315.0|False|None|None
+QgsProcessingParameterNumber|altitude|Altitude (degrees)|QgsProcessingParameterNumber.Double|30.0|False|None|None
+QgsProcessingParameterNumber|zfactor|Z Conversion Factor|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,7 @@
+AverageFlowpathSlope
+AverageFlowpathSlope
+Hydrological Analysis
+hydrologicalanalysis
+Measures the average slope gradient from each grid cell to all upslope divide cells
+QgsProcessingParameterRasterLayer|dem|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

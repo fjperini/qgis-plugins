@@ -1,0 +1,8 @@
+D8Pointer
+D8Pointer
+Hydrological Analysis
+hydrologicalanalysis
+Calculates a D8 flow pointer raster from an input DEM
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterBoolean|esri_pntr|Should the pointer file use the ESRI pointer scheme?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

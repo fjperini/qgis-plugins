@@ -1,0 +1,12 @@
+ModifiedKMeansClustering
+ModifiedKMeansClustering
+Image Processing Tools
+imageprocessingtools
+Performs a modified k-means clustering operation on a multi-spectral dataset
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterNumber|start_clusters|Initial Num. of Clusters|QgsProcessingParameterNumber.Integer|1000|False|None|None
+QgsProcessingParameterNumber|merger_dist|Cluster Merger Distance|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|max_iterations|Max. Iterations|QgsProcessingParameterNumber.Integer|10|False|None|None
+QgsProcessingParameterNumber|class_change|Percent Class Change Threshold|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False
+QgsProcessingParameterFileDestination|out_html|Output HTML Report File|HTML files (*.html *.HTML)|None|False

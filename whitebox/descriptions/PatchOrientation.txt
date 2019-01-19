@@ -1,0 +1,6 @@
+PatchOrientation
+PatchOrientation
+GIS Analysis
+gisanalysis
+Calculates the orientation of vector polygons
+QgsProcessingParameterFeatureSource|input|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False

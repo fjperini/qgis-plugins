@@ -1,0 +1,9 @@
+ClassifyOverlapPoints
+ClassifyOverlapPoints
+LiDAR Tools
+lidartools
+Classifies or filters LAS points in regions of overlapping flight lines
+QgsProcessingParameterFile|input|Input LiDAR File|QgsProcessingParameterFile.File|las|None|False
+QgsProcessingParameterNumber|resolution|Sample Resolution|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterBoolean|filter|Filter out points from overlapping flightlines?|False|False
+QgsProcessingParameterFileDestination|output|Output File|LIDAR files (*.las *.LAS)|None|False

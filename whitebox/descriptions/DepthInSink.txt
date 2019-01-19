@@ -1,0 +1,8 @@
+DepthInSink
+DepthInSink
+Hydrological Analysis
+hydrologicalanalysis
+Measures the depth of sinks (depressions) in a DEM
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterBoolean|zero_background|Should a background value of zero be used?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,7 @@
+SplitColourComposite
+SplitColourComposite
+Image Processing Tools
+imageprocessingtools
+This tool splits an RGB colour composite image into seperate multispectral images
+QgsProcessingParameterRasterLayer|input|Input Colour Composite Image File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

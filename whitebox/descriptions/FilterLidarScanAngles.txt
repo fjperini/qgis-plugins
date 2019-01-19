@@ -1,0 +1,8 @@
+FilterLidarScanAngles
+FilterLidarScanAngles
+LiDAR Tools
+lidartools
+Removes points in a LAS file with scan angles greater than a threshold
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|las|None|False
+QgsProcessingParameterNumber|threshold|Threshold (degrees)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterFileDestination|output|Output File|LIDAR files (*.las *.LAS)|None|False

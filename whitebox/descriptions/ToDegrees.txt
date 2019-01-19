@@ -1,0 +1,7 @@
+ToDegrees
+ToDegrees
+Math and Stats Tools
+mathandstatstools
+Converts a raster from radians to degrees
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

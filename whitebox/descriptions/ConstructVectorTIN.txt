@@ -1,0 +1,9 @@
+ConstructVectorTIN
+ConstructVectorTIN
+GIS Analysis
+gisanalysis
+Creates a vector triangular irregular network (TIN) for a set of vector points
+QgsProcessingParameterFile|input|Input Vector Points File|QgsProcessingParameterFile.File|None|None|False
+QgsProcessingParameterField|field|Field Name|None|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Number
+QgsProcessingParameterBoolean|use_z|Use Shapefile 'z' values?|False|False
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

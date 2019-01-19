@@ -1,0 +1,10 @@
+D8MassFlux
+D8MassFlux
+Hydrological Analysis
+hydrologicalanalysis
+Performs a D8 mass flux calculation
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterRasterLayer|loading|Input Loading File|None|False
+QgsProcessingParameterRasterLayer|efficiency|Input Efficiency File|None|False
+QgsProcessingParameterRasterLayer|absorption|Input Absorption File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

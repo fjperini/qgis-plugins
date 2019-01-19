@@ -1,0 +1,9 @@
+CostPathway
+CostPathway
+GIS Analysis
+gisanalysis
+Performs cost-distance pathway analysis using a series of destination grid cells
+QgsProcessingParameterRasterLayer|destination|Input Destination File|None|False
+QgsProcessingParameterRasterLayer|backlink|Input Backlink File|None|False
+QgsProcessingParameterBoolean|zero_background|Treat zero values as background?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

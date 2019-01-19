@@ -1,0 +1,8 @@
+AttributeHistogram
+AttributeHistogram
+Math and Stats Tools
+mathandstatstools
+Creates a histogram for the field values of a vector's attribute table
+QgsProcessingParameterFeatureSource|input|Input File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|field|Field Name|None|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Number
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False

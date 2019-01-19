@@ -1,0 +1,7 @@
+Decrement
+Decrement
+Math and Stats Tools
+mathandstatstools
+Decreases the values of each grid cell in an input raster by 1.0 (see also InPlaceSubtract)
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

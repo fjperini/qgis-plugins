@@ -1,0 +1,7 @@
+ThickenRasterLine
+ThickenRasterLine
+Image Processing Tools
+imageprocessingtools
+Thickens single-cell wide lines within a raster image
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

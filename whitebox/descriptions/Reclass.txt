@@ -1,0 +1,9 @@
+Reclass
+Reclass
+GIS Analysis
+gisanalysis
+Reclassifies the values in a raster image
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterString|reclass_vals|Class Interval Size|None|False|False
+QgsProcessingParameterBoolean|assign_mode|Operate in assign mode? (i.e. Reclass data are pair values rather than triplets)|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

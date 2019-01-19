@@ -1,0 +1,9 @@
+WriteFunctionMemoryInsertion
+WriteFunctionMemoryInsertion
+Image Processing Tools
+imageprocessingtools
+Performs a write function memory insertion for single-band multi-date change detection
+QgsProcessingParameterRasterLayer|input1|First Date Input File|None|False
+QgsProcessingParameterRasterLayer|input2|Second Date Input File|None|False
+QgsProcessingParameterRasterLayer|input3|Third Date Input File (Optional)|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

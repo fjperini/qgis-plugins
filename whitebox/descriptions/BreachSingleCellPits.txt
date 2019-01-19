@@ -1,0 +1,7 @@
+BreachSingleCellPits
+BreachSingleCellPits
+Hydrological Analysis
+hydrologicalanalysis
+Removes single-cell pits from an input DEM by breaching
+QgsProcessingParameterRasterLayer|dem|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

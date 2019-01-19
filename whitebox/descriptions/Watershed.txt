@@ -1,0 +1,9 @@
+Watershed
+Watershed
+Hydrological Analysis
+hydrologicalanalysis
+Identifies the watershed, or drainage basin, draining to a set of target cells
+QgsProcessingParameterRasterLayer|d8_pntr|Input D8 Pointer File|None|False
+QgsProcessingParameterFeatureSource|pour_pts|Input Pour Points (Outlet) File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterBoolean|esri_pntr|Does the pointer file use the ESRI pointer scheme?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,10 @@
+D8FlowAccumulation
+D8FlowAccumulation
+Hydrological Analysis
+hydrologicalanalysis
+Calculates a D8 flow accumulation raster from an input DEM
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterEnum|out_type|Output Type|cells;specific contributing area;catchment area|False|1|False
+QgsProcessingParameterBoolean|log|Log-transform the output?|False|False
+QgsProcessingParameterBoolean|clip|Clip the upper tail by 1%?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

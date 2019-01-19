@@ -1,0 +1,8 @@
+LidarKappaIndex
+LidarKappaIndex
+LiDAR Tools
+lidartools
+Performs a kappa index of agreement (KIA) analysis on the classifications of two LAS files
+QgsProcessingParameterFile|input1|Input LiDAR File (Classification)|QgsProcessingParameterFile.File|las|None|False
+QgsProcessingParameterFile|input2|Input LiDAR File (Reference)|QgsProcessingParameterFile.File|las|None|False
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False

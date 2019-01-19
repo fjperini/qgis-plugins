@@ -1,0 +1,10 @@
+FindMainStem
+FindMainStem
+Stream Network Analysis
+streamnetworkanalysis
+Finds the main stem, based on stream lengths, of each stream network
+QgsProcessingParameterRasterLayer|d8_pntr|Input D8 Pointer File|None|False
+QgsProcessingParameterRasterLayer|streams|Input Streams File|None|False
+QgsProcessingParameterBoolean|esri_pntr|Does the pointer file use the ESRI pointer scheme?|False|False
+QgsProcessingParameterBoolean|zero_background|Should a background value of zero be used?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

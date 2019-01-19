@@ -1,0 +1,9 @@
+PercentElevRange
+PercentElevRange
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates percent of elevation range from a DEM
+QgsProcessingParameterRasterLayer|input|Input DEM File|None|False
+QgsProcessingParameterNumber|filterx|Filter X-Dimension|QgsProcessingParameterNumber.Integer|3|False|None|None
+QgsProcessingParameterNumber|filtery|Filter Y-Dimension|QgsProcessingParameterNumber.Integer|3|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

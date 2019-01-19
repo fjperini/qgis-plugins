@@ -1,0 +1,12 @@
+LidarPointStats
+LidarPointStats
+LiDAR Tools
+lidartools
+Creates several rasters summarizing the distribution of LAS point data. When the input/output parameters are not specified, the tool works on all LAS files contained within the working directory
+QgsProcessingParameterFile|input|Input LiDAR File|QgsProcessingParameterFile.File|las|None|False
+QgsProcessingParameterNumber|resolution|Grid Resolution|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterBoolean|num_points|Output number of points?|False|False
+QgsProcessingParameterBoolean|num_pulses|Output number of pulses?|False|False
+QgsProcessingParameterBoolean|z_range|Output elevation range?|False|False
+QgsProcessingParameterBoolean|intensity_range|Output intensity range?|False|False
+QgsProcessingParameterBoolean|predom_class|Output predominant class?|False|False

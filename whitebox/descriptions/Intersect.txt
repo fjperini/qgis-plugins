@@ -1,0 +1,9 @@
+Intersect
+Intersect
+GIS Analysis
+gisanalysis
+Identifies the parts of features in common between two input vector layers
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFeatureSource|overlay|Input Overlay Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|snap|Snap Tolerance|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterVectorDestination|output|Output Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False

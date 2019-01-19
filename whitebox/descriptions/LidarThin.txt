@@ -1,0 +1,10 @@
+LidarThin
+LidarThin
+LiDAR Tools
+lidartools
+Thins a LiDAR point cloud, reducing point density
+QgsProcessingParameterFile|input|Input LiDAR File|QgsProcessingParameterFile.File|las|None|False
+QgsProcessingParameterNumber|resolution|Sample Resolution|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterEnum|method|Point Selection Method|first;last;lowest;highest;nearest|False|2|False
+QgsProcessingParameterBoolean|save_filtered|Save filtered points to seperate file?|False|False
+QgsProcessingParameterFileDestination|output|Output File|LIDAR files (*.las *.LAS)|None|False

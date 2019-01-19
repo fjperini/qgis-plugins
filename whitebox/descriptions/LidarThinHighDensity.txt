@@ -1,0 +1,10 @@
+LidarThinHighDensity
+LidarThinHighDensity
+LiDAR Tools
+lidartools
+Thins points from high density areas within a LiDAR point cloud
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|las|None|False
+QgsProcessingParameterNumber|resolution|Grid Resolution|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterNumber|density|Max. Point Density (pts/m^2)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterBoolean|save_filtered|Save filtered points to seperate file?|False|False
+QgsProcessingParameterFileDestination|output|Output File|LIDAR files (*.las *.LAS)|None|False

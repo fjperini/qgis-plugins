@@ -1,0 +1,7 @@
+IsNoData
+IsNoData
+Math and Stats Tools
+mathandstatstools
+Identifies NoData valued pixels in an image
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

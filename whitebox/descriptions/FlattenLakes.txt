@@ -1,0 +1,8 @@
+FlattenLakes
+FlattenLakes
+Hydrological Analysis
+hydrologicalanalysis
+Flattens lake polygons in a raster DEM
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterFeatureSource|lakes|Input Lakes Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

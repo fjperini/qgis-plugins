@@ -1,0 +1,7 @@
+CrispnessIndex
+CrispnessIndex
+Math and Stats Tools
+mathandstatstools
+Calculates the Crispness Index, which is used to quantify how crisp (or conversely how fuzzy) a probability image is
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False

@@ -1,0 +1,7 @@
+RasterToVectorPoints
+RasterToVectorPoints
+Data Tools
+datatools
+Converts a raster dataset to a vector of the POINT shapetype
+QgsProcessingParameterRasterLayer|input|Input Raster File|None|False
+QgsProcessingParameterVectorDestination|output|Output Points File|QgsProcessing.TypeVectorPoint|None|False

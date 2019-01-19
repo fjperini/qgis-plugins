@@ -1,0 +1,6 @@
+PerimeterAreaRatio
+PerimeterAreaRatio
+GIS Analysis
+gisanalysis
+Calculates the perimeter-area ratio of vector polygons
+QgsProcessingParameterFeatureSource|input|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False

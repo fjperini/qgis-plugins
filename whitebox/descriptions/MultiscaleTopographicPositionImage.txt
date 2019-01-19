@@ -1,0 +1,10 @@
+MultiscaleTopographicPositionImage
+MultiscaleTopographicPositionImage
+Geomorphometric Analysis
+geomorphometricanalysis
+Creates a multiscale topographic position image from three DEVmax rasters of differing spatial scale ranges
+QgsProcessingParameterRasterLayer|local|Input Local-Scale File|None|False
+QgsProcessingParameterRasterLayer|meso|Input Meso-Scale File|None|False
+QgsProcessingParameterRasterLayer|broad|Input Broad-Scale File|None|False
+QgsProcessingParameterNumber|lightness|Image Lightness Value|QgsProcessingParameterNumber.Double|1.2|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

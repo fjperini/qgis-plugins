@@ -1,0 +1,11 @@
+LeeFilter
+LeeFilter
+Image Processing Tools
+imageprocessingtools
+Performs a Lee (Sigma) smoothing filter on an image
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|filterx|Filter X-Dimension|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterNumber|filtery|Filter Y-Dimension|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterNumber|sigma|Sigma|QgsProcessingParameterNumber.Double|10.0|False|None|None
+QgsProcessingParameterNumber|m|M-value|QgsProcessingParameterNumber.Double|5.0|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

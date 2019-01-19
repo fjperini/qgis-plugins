@@ -1,0 +1,10 @@
+ImageRegression
+ImageRegression
+Math and Stats Tools
+mathandstatstools
+Performs image regression analysis on two input images
+QgsProcessingParameterRasterLayer|input1|Independent Variable (X).|None|False
+QgsProcessingParameterRasterLayer|input2|Dependent Variable (Y).|None|False
+QgsProcessingParameterBoolean|standardize|Standardize the residuals map?|False|False
+QgsProcessingParameterFileDestination|output|Output Summary Report File|HTML files (*.html *.HTML)|None|False
+QgsProcessingParameterRasterDestination|out_residuals|Optional Residuals Output File|None|False

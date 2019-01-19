@@ -1,0 +1,9 @@
+LidarHistogram
+LidarHistogram
+LiDAR Tools
+lidartools
+Creates a histogram from LiDAR data
+QgsProcessingParameterFile|input|Input LiDAR File|QgsProcessingParameterFile.File|las|None|False
+QgsProcessingParameterEnum|parameter|Parameter|elevation;intensity;scan angle;class|False|0|False
+QgsProcessingParameterNumber|clip|Tail Clip Percent|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False

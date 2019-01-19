@@ -1,0 +1,9 @@
+DiffOfGaussianFilter
+DiffOfGaussianFilter
+Image Processing Tools
+imageprocessingtools
+Performs a Difference of Gaussian (DoG) filter on an image
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|sigma1|Sigma 1 (pixels)|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterNumber|sigma2|Sigma 2 (pixels)|QgsProcessingParameterNumber.Double|4.0|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

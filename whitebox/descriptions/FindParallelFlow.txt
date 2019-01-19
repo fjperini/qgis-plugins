@@ -1,0 +1,8 @@
+FindParallelFlow
+FindParallelFlow
+Hydrological Analysis
+hydrologicalanalysis
+Finds areas of parallel flow in D8 flow direction rasters
+QgsProcessingParameterRasterLayer|d8_pntr|Input D8 Pointer File|None|False
+QgsProcessingParameterRasterLayer|streams|Input Streams File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

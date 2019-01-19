@@ -1,0 +1,10 @@
+CreatePlane
+CreatePlane
+GIS Analysis
+gisanalysis
+Creates a raster image based on the equation for a simple plane
+QgsProcessingParameterRasterLayer|base|Input Base File|None|False
+QgsProcessingParameterNumber|gradient|Gradient|QgsProcessingParameterNumber.Double|15.0|False|None|None
+QgsProcessingParameterNumber|aspect|Aspect|QgsProcessingParameterNumber.Double|90.0|False|None|None
+QgsProcessingParameterNumber|constant|Constant|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

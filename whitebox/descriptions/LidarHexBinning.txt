@@ -1,0 +1,9 @@
+LidarHexBinning
+LidarHexBinning
+LiDAR Tools
+lidartools
+Hex-bins a set of LiDAR points
+QgsProcessingParameterFile|input|Input Base File|QgsProcessingParameterFile.File|las|None|False
+QgsProcessingParameterNumber|width|Hexagon Width|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterEnum|orientation|Grid Orientation|horizontal;vertical|False|0|False
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

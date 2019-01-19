@@ -1,0 +1,9 @@
+DiffFromMeanElev
+DiffFromMeanElev
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates difference from mean elevation (equivalent to a high-pass filter)
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|filterx|Filter X-Dimension|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterNumber|filtery|Filter Y-Dimension|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

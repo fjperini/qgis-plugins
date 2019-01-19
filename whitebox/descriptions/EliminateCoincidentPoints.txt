@@ -1,0 +1,8 @@
+EliminateCoincidentPoints
+EliminateCoincidentPoints
+GIS Analysis
+gisanalysis
+Removes any coincident, or nearly coincident, points from a vector points file
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterNumber|tolerance|Distance Tolerance|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPoint|None|False

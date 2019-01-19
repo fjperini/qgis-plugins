@@ -1,0 +1,8 @@
+HistogramMatchingTwoImages
+HistogramMatchingTwoImages
+Image Processing Tools
+imageprocessingtools
+This tool alters the cumulative distribution function of a raster image to that of another image
+QgsProcessingParameterRasterLayer|input1|Input File To Modify|None|False
+QgsProcessingParameterRasterLayer|input2|Input Reference File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

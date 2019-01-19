@@ -1,0 +1,6 @@
+RasterSummaryStats
+RasterSummaryStats
+Math and Stats Tools
+mathandstatstools
+Measures a rasters average, standard deviation, num. non-nodata cells, and total
+QgsProcessingParameterRasterLayer|input|Input File|None|False

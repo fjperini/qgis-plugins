@@ -1,0 +1,10 @@
+DownslopeFlowpathLength
+DownslopeFlowpathLength
+Hydrological Analysis
+hydrologicalanalysis
+Calculates the downslope flowpath length from each cell to basin outlet
+QgsProcessingParameterRasterLayer|d8_pntr|Input D8 Pointer File|None|False
+QgsProcessingParameterRasterLayer|watersheds|Input Watersheds File (optional)|None|False
+QgsProcessingParameterRasterLayer|weights|Input Weights File (optional)|None|False
+QgsProcessingParameterBoolean|esri_pntr|Does the pointer file use the ESRI pointer scheme?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,9 @@
+ExtendVectorLines
+ExtendVectorLines
+GIS Analysis
+gisanalysis
+Extends vector lines by a specified distance
+QgsProcessingParameterFeatureSource|input|Input Vector Lines File|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterNumber|dist|Extend Distance|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterEnum|extend|Extend Direction|both ends;line start;line end|False|0|False
+QgsProcessingParameterVectorDestination|output|Output Vector File|QgsProcessing.TypeVectorLine|None|False

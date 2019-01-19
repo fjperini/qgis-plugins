@@ -1,0 +1,10 @@
+RasterizeStreams
+RasterizeStreams
+Stream Network Analysis
+streamnetworkanalysis
+Rasterizes vector streams based on Lindsay (2016) method
+QgsProcessingParameterFeatureSource|streams|Input Vector Streams File|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterRasterLayer|base|Input Base Raster File|None|False
+QgsProcessingParameterBoolean|nodata|Use NoData value for background?|True|False
+QgsProcessingParameterBoolean|feature_id|Use feature number as output value?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

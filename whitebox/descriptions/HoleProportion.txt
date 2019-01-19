@@ -1,0 +1,6 @@
+HoleProportion
+HoleProportion
+GIS Analysis
+gisanalysis
+Calculates the proportion of the total area of a polygon's holes relative to the area of the polygon's hull
+QgsProcessingParameterFeatureSource|input|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False

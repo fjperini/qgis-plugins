@@ -1,0 +1,8 @@
+FillBurn
+FillBurn
+Hydrological Analysis
+hydrologicalanalysis
+Burns streams into a DEM using the FillBurn (Saunders, 1999) method
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterFeatureSource|streams|Input Vector Streams File|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

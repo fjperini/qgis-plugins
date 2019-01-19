@@ -1,0 +1,8 @@
+MinimumBoundingCircle
+MinimumBoundingCircle
+GIS Analysis
+gisanalysis
+Delineates the minimum bounding circle (i.e. smallest enclosing circle) for a group of vectors
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterBoolean|features|Find bounding circle around each individual feature.|True|False
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

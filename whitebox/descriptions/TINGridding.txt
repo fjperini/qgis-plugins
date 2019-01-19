@@ -1,0 +1,10 @@
+TINGridding
+TINGridding
+GIS Analysis
+gisanalysis
+Creates a raster grid based on a triangular irregular network (TIN) fitted to vector points
+QgsProcessingParameterFile|input|Input Vector Points File|QgsProcessingParameterFile.File|None|None|False
+QgsProcessingParameterField|field|Field Name|None|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Number
+QgsProcessingParameterBoolean|use_z|Use Shapefile 'z' values?|False|False
+QgsProcessingParameterNumber|resolution|Grid Resolution|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False

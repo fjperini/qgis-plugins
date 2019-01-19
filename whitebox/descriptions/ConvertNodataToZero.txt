@@ -1,0 +1,7 @@
+ConvertNodataToZero
+ConvertNodataToZero
+Data Tools
+datatools
+Converts nodata values in a raster to zero
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,7 @@
+LayerFootprint
+LayerFootprint
+GIS Analysis
+gisanalysis
+Creates a vector polygon footprint of the area covered by a raster grid or vector layer
+QgsProcessingParameterFile|input|Input Raster or Vector File|QgsProcessingParameterFile.File|None|None|False
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

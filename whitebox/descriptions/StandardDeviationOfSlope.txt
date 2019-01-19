@@ -1,0 +1,10 @@
+StandardDeviationOfSlope
+StandardDeviationOfSlope
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates the standard deviation of slope from an input DEM
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|zfactor|Z Conversion Factor|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterNumber|filterx|Filter X-Dimension|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterNumber|filtery|Filter Y-Dimension|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

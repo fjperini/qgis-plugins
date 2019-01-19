@@ -1,0 +1,8 @@
+ImageStackProfile
+ImageStackProfile
+Image Processing Tools
+imageprocessingtools
+Plots an image stack profile (i.e. signature) for a set of points and multispectral images
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterFeatureSource|points|Input Vector Points File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False

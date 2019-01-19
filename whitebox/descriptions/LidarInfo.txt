@@ -1,0 +1,9 @@
+LidarInfo
+LidarInfo
+LiDAR Tools
+lidartools
+Prints information about a LiDAR (LAS) dataset, including header, point return frequency, and classification data and information about the variable length records (VLRs) and geokeys
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|las|None|False
+QgsProcessingParameterBoolean|vlr|Print the variable length records (VLRs)?|False|False
+QgsProcessingParameterBoolean|geokeys|Print the geokeys?|False|False
+QgsProcessingParameterFileDestination|output|Output Summary Report File|HTML files (*.html *.HTML)|None|False

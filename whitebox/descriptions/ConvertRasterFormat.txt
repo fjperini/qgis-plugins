@@ -1,0 +1,7 @@
+ConvertRasterFormat
+ConvertRasterFormat
+Data Tools
+datatools
+Converts raster data from one format to another
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,11 @@
+CorrectVignetting
+CorrectVignetting
+Image Processing Tools
+imageprocessingtools
+Corrects the darkening of images towards corners
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterFeatureSource|pp|Input Principal Point File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterNumber|focal_length|Camera Focal Length (mm)|QgsProcessingParameterNumber.Double|304.8|False|None|None
+QgsProcessingParameterNumber|image_width|Distance Between Left-Right Edges (mm)|QgsProcessingParameterNumber.Double|228.6|False|None|None
+QgsProcessingParameterNumber|n|n Parameter|QgsProcessingParameterNumber.Double|4.0|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

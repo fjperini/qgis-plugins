@@ -1,0 +1,7 @@
+AttributeCorrelation
+AttributeCorrelation
+Math and Stats Tools
+mathandstatstools
+Performs a correlation analysis on attribute fields from a vector database
+QgsProcessingParameterFeatureSource|input|Input File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False

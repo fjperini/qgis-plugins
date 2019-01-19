@@ -1,0 +1,6 @@
+PolygonArea
+PolygonArea
+GIS Analysis
+gisanalysis
+Calculates the area of vector polygons
+QgsProcessingParameterFeatureSource|input|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False

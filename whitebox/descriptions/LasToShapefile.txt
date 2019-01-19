@@ -1,0 +1,6 @@
+LasToShapefile
+LasToShapefile
+LiDAR Tools
+lidartools
+Converts one or more LAS files into a vector Shapefile of POINT ShapeType
+QgsProcessingParameterFile|input|Input LiDAR File|QgsProcessingParameterFile.File|las|None|False

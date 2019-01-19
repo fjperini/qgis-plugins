@@ -1,0 +1,7 @@
+RasterToVectorLines
+RasterToVectorLines
+Data Tools
+datatools
+Converts a raster lines features into a vector of the POLYLINE shapetyp
+QgsProcessingParameterRasterLayer|input|Input Raster Lines File|None|False
+QgsProcessingParameterVectorDestination|output|Output File|QgsProcessing.TypeVectorLine|None|False

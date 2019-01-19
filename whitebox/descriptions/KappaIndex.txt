@@ -1,0 +1,8 @@
+KappaIndex
+KappaIndex
+Math and Stats Tools
+mathandstatstools
+Performs a kappa index of agreement (KIA) analysis on two categorical raster files
+QgsProcessingParameterRasterLayer|input1|Input Classification File|None|False
+QgsProcessingParameterRasterLayer|input2|Input Reference File|None|False
+QgsProcessingParameterFileDestination|output|Output File|HTML files (*.html *.HTML)|None|False

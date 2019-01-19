@@ -1,0 +1,8 @@
+ExportTableToCsv
+ExportTableToCsv
+Data Tools
+datatools
+Exports an attribute table to a CSV text file
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterBoolean|headers|Export field names as file header?|True|False
+QgsProcessingParameterFileDestination|output|Output File|CSV files (*.csv *.CSV)|None|False

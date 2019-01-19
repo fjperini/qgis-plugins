@@ -1,0 +1,7 @@
+IntegralImage
+IntegralImage
+Image Processing Tools
+imageprocessingtools
+Transforms an input image (summed area table) into its integral image equivalent
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,12 @@
+IhsToRgb
+IhsToRgb
+Image Processing Tools
+imageprocessingtools
+Converts intensity, hue, and saturation (IHS) images into red, green, and blue (RGB) images
+QgsProcessingParameterRasterLayer|intensity|Input Intensity File|None|False
+QgsProcessingParameterRasterLayer|hue|Input Hue File|None|False
+QgsProcessingParameterRasterLayer|saturation|Input Saturation File|None|False
+QgsProcessingParameterRasterDestination|red|Output Red Band File (optional; only if colour-composite not specified)|None|False
+QgsProcessingParameterRasterDestination|green|Output Green Band File (optional; only if colour-composite not specified)|None|False
+QgsProcessingParameterRasterDestination|blue|Output Blue Band File (optional; only if colour-composite not specified)|None|False
+QgsProcessingParameterRasterDestination|output|Output Colour-Composite File (optional; only if individual bands not specified)|None|False

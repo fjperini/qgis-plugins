@@ -1,0 +1,8 @@
+SplitWithLines
+SplitWithLines
+GIS Analysis
+gisanalysis
+Splits the lines or polygons in one layer using the lines in another layer
+QgsProcessingParameterFeatureSource|input|Input Vector Lines or Polygon File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFeatureSource|split|Input Vector Lines File|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterVectorDestination|output|Output Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False

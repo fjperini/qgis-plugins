@@ -1,0 +1,8 @@
+FindLowestOrHighestPoints
+FindLowestOrHighestPoints
+GIS Analysis
+gisanalysis
+Locates the lowest and/or highest valued cells in a raster
+QgsProcessingParameterRasterLayer|input|Input Raster File|None|False
+QgsProcessingParameterEnum|out_type|Output Type|lowest;highest;both|False|0|False
+QgsProcessingParameterVectorDestination|output|Output Points File|QgsProcessing.TypeVectorPoint|None|False

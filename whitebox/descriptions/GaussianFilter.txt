@@ -1,0 +1,8 @@
+GaussianFilter
+GaussianFilter
+Image Processing Tools
+imageprocessingtools
+Performs a Gaussian filter on an image
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|sigma|Standard Deviation (pixels)|QgsProcessingParameterNumber.Double|0.75|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,8 @@
+LidarColourize
+LidarColourize
+LiDAR Tools
+lidartools
+Adds the red-green-blue colour fields of a LiDAR (LAS) file based on an input image
+QgsProcessingParameterFile|in_lidar|Input LiDAR File|QgsProcessingParameterFile.File|las|None|False
+QgsProcessingParameterRasterLayer|in_image|Input Colour Image File|None|False
+QgsProcessingParameterFileDestination|output|Output LiDAR File|LIDAR files (*.las *.LAS)|None|False

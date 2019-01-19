@@ -1,0 +1,7 @@
+VoronoiDiagram
+VoronoiDiagram
+GIS Analysis
+gisanalysis
+Creates a vector Voronoi diagram for a set of vector points
+QgsProcessingParameterFile|input|Input Vector Points File|QgsProcessingParameterFile.File|None|None|False
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

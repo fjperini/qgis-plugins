@@ -1,0 +1,8 @@
+LidarRemoveDuplicates
+LidarRemoveDuplicates
+LiDAR Tools
+lidartools
+Removes duplicate points from a LiDAR data set
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|las|None|False
+QgsProcessingParameterBoolean|include_z|Include z-values in point comparison?|False|False
+QgsProcessingParameterFileDestination|output|Output File|LIDAR files (*.las *.LAS)|None|False

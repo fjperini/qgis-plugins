@@ -1,0 +1,8 @@
+Clip
+Clip
+GIS Analysis
+gisanalysis
+Extract all the features, or parts of features, that overlap with the features of the clip vector
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFeatureSource|clip|Input Clip Polygon Vector File|QgsProcessing.TypeVectorPolygon|None|False
+QgsProcessingParameterVectorDestination|output|Output Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False

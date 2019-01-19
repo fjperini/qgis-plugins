@@ -1,0 +1,10 @@
+RaiseWalls
+RaiseWalls
+Hydrological Analysis
+hydrologicalanalysis
+Raises walls in a DEM along a line or around a polygon, e.g. a watershed
+QgsProcessingParameterFeatureSource|input|Input Vector Line or Polygon File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFeatureSource|breach|Input Breach Lines (optional)|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|height|Wall Height|QgsProcessingParameterNumber.Double|100.0|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

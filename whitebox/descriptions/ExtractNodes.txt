@@ -1,0 +1,7 @@
+ExtractNodes
+ExtractNodes
+GIS Analysis
+gisanalysis
+Converts vector lines or polygons into vertex points
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterVectorDestination|output|Output Points File|QgsProcessing.TypeVectorPoint|None|False

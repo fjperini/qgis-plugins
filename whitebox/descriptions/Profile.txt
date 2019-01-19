@@ -1,0 +1,8 @@
+Profile
+Profile
+Geomorphometric Analysis
+geomorphometricanalysis
+Plots profiles from digital surface models
+QgsProcessingParameterFeatureSource|lines|Input Vector Line File|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterRasterLayer|surface|Input Surface File|None|False
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False

@@ -1,0 +1,8 @@
+EdgeProportion
+EdgeProportion
+GIS Analysis
+gisanalysis
+Calculate the proportion of cells in a raster polygon that are edge cells
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterBoolean|output_text|Output a text report?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

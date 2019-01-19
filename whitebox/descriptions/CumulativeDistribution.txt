@@ -1,0 +1,7 @@
+CumulativeDistribution
+CumulativeDistribution
+Math and Stats Tools
+mathandstatstools
+Converts a raster image to its cumulative distribution function
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

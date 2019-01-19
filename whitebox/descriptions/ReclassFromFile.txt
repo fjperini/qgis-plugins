@@ -1,0 +1,8 @@
+ReclassFromFile
+ReclassFromFile
+GIS Analysis
+gisanalysis
+Reclassifies the values in a raster image using reclass ranges in a text file
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterFile|reclass_file|Input Reclass Text File|QgsProcessingParameterFile.File|txt|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

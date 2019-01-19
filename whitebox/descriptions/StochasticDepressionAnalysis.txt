@@ -1,0 +1,10 @@
+StochasticDepressionAnalysis
+StochasticDepressionAnalysis
+Hydrological Analysis
+hydrologicalanalysis
+Preforms a stochastic analysis of depressions within a DEM
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|rmse|DEM root-mean-square-error (z units)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|range|Range of Autocorrelation (map units)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|iterations|Iterations|QgsProcessingParameterNumber.Integer|1000|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

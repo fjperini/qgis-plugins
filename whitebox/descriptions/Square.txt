@@ -1,0 +1,7 @@
+Square
+Square
+Math and Stats Tools
+mathandstatstools
+Squares the values in a raster
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

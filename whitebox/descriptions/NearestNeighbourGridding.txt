@@ -1,0 +1,12 @@
+NearestNeighbourGridding
+NearestNeighbourGridding
+GIS Analysis
+gisanalysis
+Creates a raster grid based on a set of vector points and assigns grid values using the nearest neighbour
+QgsProcessingParameterFeatureSource|input|Input Vector Points File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterField|field|Field Name|None|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Number
+QgsProcessingParameterBoolean|use_z|Use z-coordinate instead of field?|False|False
+QgsProcessingParameterNumber|cell_size|Cell Size (optional)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterRasterLayer|base|Base Raster File (optional)|None|False
+QgsProcessingParameterNumber|max_dist|Maximum Search Distance|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

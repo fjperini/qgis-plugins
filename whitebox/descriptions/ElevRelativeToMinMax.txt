@@ -1,0 +1,7 @@
+ElevRelativeToMinMax
+ElevRelativeToMinMax
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates the elevation of a location relative to the minimum and maximum elevations in a DEM
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

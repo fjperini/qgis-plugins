@@ -1,0 +1,9 @@
+Union
+Union
+GIS Analysis
+gisanalysis
+Splits vector layers at their overlaps, creating a layer containing all the portions from both input and overlay layers
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFeatureSource|overlay|Input Overlay Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|snap|Snap Tolerance|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterVectorDestination|output|Output Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False

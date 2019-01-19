@@ -1,0 +1,11 @@
+CreateColourComposite
+CreateColourComposite
+Image Processing Tools
+imageprocessingtools
+Creates a colour-composite image from three bands of multispectral imagery
+QgsProcessingParameterRasterLayer|red|Input Red Band Image File|None|False
+QgsProcessingParameterRasterLayer|green|Input Green Band Image File|None|False
+QgsProcessingParameterRasterLayer|blue|Input Blue Band Image File|None|False
+QgsProcessingParameterRasterLayer|opacity|Input Opacity Band Image File (Optional)|None|False
+QgsProcessingParameterBoolean|enhance|Perform balance contrast enhancement?|True|False
+QgsProcessingParameterRasterDestination|output|Output Colour Composite File|None|False

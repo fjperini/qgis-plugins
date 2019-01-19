@@ -1,0 +1,10 @@
+ExtractRasterStatistics
+ExtractRasterStatistics
+Math and Stats Tools
+mathandstatstools
+Extracts descriptive statistics for a group of patches in a raster
+QgsProcessingParameterRasterLayer|input|Input Data File|None|False
+QgsProcessingParameterRasterLayer|features|Input Feature Definition File|None|False
+QgsProcessingParameterEnum|stat|Statistic Type|average;minimum;maximum;range;standard deviation;total|False|0|False
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False
+QgsProcessingParameterFileDestination|out_table|Output HTML Table File|HTML files (*.html *.HTML)|None|False

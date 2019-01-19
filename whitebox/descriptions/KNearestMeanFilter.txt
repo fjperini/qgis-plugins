@@ -1,0 +1,10 @@
+KNearestMeanFilter
+KNearest Mean Filter
+Image Processing Tools
+imageprocessingtools
+A k-nearest mean filter is a type of edge-preserving smoothing filter
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|filterx|Filter X-Dimension|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterNumber|filtery|Filter Y-Dimension|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterNumber|k|K-value (pixels)|QgsProcessingParameterNumber.Integer|5|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

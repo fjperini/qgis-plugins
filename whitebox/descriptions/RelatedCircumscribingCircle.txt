@@ -1,0 +1,6 @@
+RelatedCircumscribingCircle
+RelatedCircumscribingCircle
+GIS Analysis
+gisanalysis
+Calculates the related circumscribing circle of vector polygons
+QgsProcessingParameterFeatureSource|input|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False

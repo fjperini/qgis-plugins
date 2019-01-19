@@ -1,0 +1,7 @@
+MergeVectors
+MergeVectors
+Data Tools
+datatools
+Combines two or more input vectors of the same ShapeType creating a single, new output vector
+QgsProcessingParameterMultipleLayers|inputs|Input Vector Files|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterVectorDestination|output|Output Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False

@@ -1,0 +1,10 @@
+RemoveShortStreams
+RemoveShortStreams
+Stream Network Analysis
+streamnetworkanalysis
+Removes short first-order streams from a stream network
+QgsProcessingParameterRasterLayer|d8_pntr|Input D8 Pointer File|None|False
+QgsProcessingParameterRasterLayer|streams|Input Streams File|None|False
+QgsProcessingParameterNumber|min_length|Minimum Tributary Length (map units)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterBoolean|esri_pntr|Does the pointer file use the ESRI pointer scheme?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

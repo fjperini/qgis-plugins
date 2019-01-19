@@ -1,0 +1,7 @@
+ExtractRasterValuesAtPoints
+ExtractRasterValuesAtPoints
+GIS Analysis
+gisanalysis
+Extracts the values of raster(s) at vector point locations
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterFeatureSource|points|Input Points File|QgsProcessing.TypeVectorPoint|None|False

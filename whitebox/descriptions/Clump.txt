@@ -1,0 +1,9 @@
+Clump
+Clump
+GIS Analysis
+gisanalysis
+Groups cells that form physically discrete areas, assigning them unique identifiers
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterBoolean|diag|Include diagonal connections?|True|False
+QgsProcessingParameterBoolean|zero_back|Treat zero values as background?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

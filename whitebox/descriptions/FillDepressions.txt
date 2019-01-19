@@ -1,0 +1,8 @@
+FillDepressions
+FillDepressions
+Hydrological Analysis
+hydrologicalanalysis
+Fills all of the depressions in a DEM. Depression breaching should be preferred in most cases
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterBoolean|fix_flats|Fix flat areas?|True|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,9 @@
+DirectDecorrelationStretch
+DirectDecorrelationStretch
+Image Processing Tools
+imageprocessingtools
+Performs a direct decorrelation stretch enhancement on a colour-composite image of multispectral data
+QgsProcessingParameterRasterLayer|input|Input Colour Composite Image File|None|False
+QgsProcessingParameterNumber|k|Achromatic Factor (0-1)|QgsProcessingParameterNumber.Double|0.5|False|None|None
+QgsProcessingParameterNumber|clip|Percent to clip the upper tail|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False
